@@ -51,7 +51,7 @@ class cuentaBancaria{
         console.log(`Saldo: ${this._saldo}`)
     }
 }
-const cuenta1 = new cuentaBancaria("123456", "Frederick", 1000, true);
+const cuenta1 = new cuentaBancaria("123456", "Yony", 1000, true);
 cuenta1.mostrarInformacion();
 cuenta1.Retirar(1000);
 cuenta1.mostrarInformacion();

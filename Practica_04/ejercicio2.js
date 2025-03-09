@@ -53,5 +53,5 @@ class Estudiante{
     }
 }
 
-const estudiante = new Estudiante("Frederick", 18, 10, true);
+const estudiante = new Estudiante("Yony", 18, 10, true);
 console.log(estudiante.Nombre)
